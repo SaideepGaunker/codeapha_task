@@ -1,0 +1,209 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+:root {
+  --background: #f8fafc;
+  --card-bg: #fff;
+  --text: #374151;
+  --primary: #6366f1;
+  --primary-dark: #4338ca;
+  --shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.dark {
+  --background: #18181b;
+  --card-bg: #23232a;
+  --text: #e5e7eb;
+  --primary: #818cf8;
+  --primary-dark: #6366f1;
+  --shadow: 0 4px 24px rgba(0,0,0,0.32);
+}
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+.quote-app {
+  max-width: 900px;
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  background: var(--background);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.quote-box {
+  background: var(--card-bg);
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  max-width: 400px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.quote-text {
+  font-size: 2.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.quote-author {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.buttons button {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 0.75rem;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.buttons button:hover {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(99,102,241,0.12);
+}
+
+.add-quote-form {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: var(--card-bg);
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.add-quote-form textarea,
+.add-quote-form input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  transition: border 0.2s;
+}
+.add-quote-form textarea:focus,
+.add-quote-form input:focus {
+  border: 1.5px solid var(--primary);
+  outline: none;
+}
+.add-quote-form button[type="submit"] {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-quote-form button[type="submit"]:hover {
+  background: var(--primary-dark);
+}
+@media (max-width: 600px) {
+  .quote-box {
+    padding: 1rem 0.5rem;
+  }
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .add-quote-form {
+    padding: 0.75rem;
+  }
+}
+
+.button-separator {
+  width: 2px;
+  height: 40px;
+  background: #e5e7eb;
+  margin: 0 1rem;
+  align-self: center;
+}
+.dark .button-separator {
+  background: #27272a;
+}
+.share-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  .button-separator {
+    width: 80%;
+    height: 2px;
+    margin: 0.5rem 0;
+  }
+  .share-buttons {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+}
