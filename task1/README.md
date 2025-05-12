@@ -9,28 +9,6 @@ The Flashcard Quiz App is a web application designed for users to create and stu
 - Track and display quiz scores.
 - User-friendly interface for easy navigation.
 
-## Project Structure
-```
-flashcard-quiz-app
-├── src
-│   ├── components
-│   │   ├── Flashcard.tsx
-│   │   ├── Quiz.tsx
-│   │   └── Scoreboard.tsx
-│   ├── pages
-│   │   ├── Home.tsx
-│   │   └── QuizPage.tsx
-│   ├── App.tsx
-│   └── types
-│       └── index.ts
-├── public
-│   └── index.html
-├── package.json
-├── tsconfig.json
-├── README.md
-└── .gitignore
-```
-
 ## Installation
 1. Clone the repository:
    ```
@@ -51,9 +29,3 @@ flashcard-quiz-app
    npm start
    ```
 2. Open your browser and go to `http://localhost:3000` to access the app.
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
