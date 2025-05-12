@@ -1,28 +1,34 @@
 **📚 Overview**
 This application is a gamified learning platform designed to make language learning engaging and interactive. It features lessons, quizzes, games, achievements, and a progress tracker, all seamlessly integrated to motivate users and track their advancement.
 
-**🚀 How It Works
-1. Lessons**
+**🚀 How It Works**
+
+**1. Lessons**
 Lessons are the core learning units.
 The first lesson is always unlocked.
 Each subsequent lesson unlocks only after the previous one is completed.
 Users mark lessons as complete to progress.
+
 **2. Games & Quizzes**
 Each game and quiz is tied to a specific lesson.
 Games and quizzes remain locked until their associated lesson is completed.
 Once unlocked, users can interact, submit answers, and receive instant feedback.
+
 **3. Achievements**
 The app rewards users with achievements for reaching milestones, such as:
 Completing the first lesson
 Completing five lessons
 Completing all lessons, games, or quizzes
 Achievements are displayed in a dedicated section.
+
 **4. Progress Tracking**
 The app tracks completed lessons, games, quizzes, points, and achievements.
 A progress bar and stats are shown to visualize advancement.
+
 **5. State Management**
 All user progress is managed globally using React Context.
 Completing any activity (lesson, game, quiz) updates the context, which automatically updates the UI and unlocks new content.
+
 **6. User Experience**
 Locked content is visually dimmed and displays a lock message.
 The interface is clean, modern, and responsive.
