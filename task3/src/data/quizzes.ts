@@ -1,0 +1,17 @@
+export const quizzes = [
+  { id: 'quiz-1', lessonId: 'lesson-1', question: 'What is "Hello" in Spanish?', options: ['Hola', 'Adiós', 'Gracias', 'Por favor'], answer: 0 },
+  { id: 'quiz-2', lessonId: 'lesson-1', question: 'What is "Good night" in Spanish?', options: ['Buenas noches', 'Buenos días', 'Buenas tardes', 'Hola'], answer: 0 },
+  { id: 'quiz-3', lessonId: 'lesson-2', question: 'What is "Three" in Spanish?', options: ['Uno', 'Dos', 'Tres', 'Cinco'], answer: 2 },
+  { id: 'quiz-4', lessonId: 'lesson-2', question: 'What is "Five" in Spanish?', options: ['Cuatro', 'Cinco', 'Dos', 'Uno'], answer: 1 },
+  { id: 'quiz-5', lessonId: 'lesson-3', question: 'What is "Red" in Spanish?', options: ['Rojo', 'Azul', 'Verde', 'Negro'], answer: 0 },
+  { id: 'quiz-6', lessonId: 'lesson-3', question: 'What is "Green" in Spanish?', options: ['Amarillo', 'Verde', 'Azul', 'Rojo'], answer: 1 },
+  { id: 'quiz-7', lessonId: 'lesson-4', question: 'What is "Monday" in Spanish?', options: ['Lunes', 'Martes', 'Jueves', 'Viernes'], answer: 0 },
+  { id: 'quiz-8', lessonId: 'lesson-4', question: 'What is "Friday" in Spanish?', options: ['Miércoles', 'Viernes', 'Lunes', 'Martes'], answer: 1 },
+  { id: 'quiz-9', lessonId: 'lesson-5', question: 'How do you say "Thank you" in Spanish?', options: ['Por favor', 'Gracias', 'De nada', 'Hola'], answer: 1 },
+  { id: 'quiz-10', lessonId: 'lesson-5', question: 'How do you say "Please" in Spanish?', options: ['Gracias', 'Por favor', 'De nada', 'Hola'], answer: 1 },
+  { id: 'quiz-11', lessonId: 'lesson-6', question: 'What is "Mother" in Spanish?', options: ['Padre', 'Hermana', 'Madre', 'Abuelo'], answer: 2 },
+  { id: 'quiz-12', lessonId: 'lesson-6', question: 'What is "Brother" in Spanish?', options: ['Hermano', 'Padre', 'Abuelo', 'Madre'], answer: 0 },
+  { id: 'quiz-13', lessonId: 'lesson-7', question: 'What is "Bread" in Spanish?', options: ['Leche', 'Pan', 'Fruta', 'Agua'], answer: 1 },
+  { id: 'quiz-14', lessonId: 'lesson-8', question: 'What is "Rain" in Spanish?', options: ['Sol', 'Nieve', 'Lluvia', 'Viento'], answer: 2 },
+  { id: 'quiz-15', lessonId: 'lesson-9', question: 'How do you say "My name is Ana" in Spanish?', options: ['Tengo 10 años', 'Me llamo Ana', 'Vivo en Madrid', 'Hola'], answer: 1 },
+]; 
