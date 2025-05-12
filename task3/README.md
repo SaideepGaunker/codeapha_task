@@ -1,7 +1,7 @@
-##📚 Overview
+## 📚 Overview
 This application is a gamified learning platform designed to make language learning engaging and interactive. It features lessons, quizzes, games, achievements, and a progress tracker, all seamlessly integrated to motivate users and track their advancement.
 
-##🚀 How It Works
+## 🚀 How It Works
 
 **1. Lessons**
 Lessons are the core learning units.
@@ -56,14 +56,14 @@ Navigation is intuitive, with dedicated sections for each feature.
 2. Open your browser and go to `http://localhost:3000` to access the app.
 
 
-##🛠️ Technical Details
+## 🛠️ Technical Details
 Frontend: React with functional components and hooks.
 State Management: React Context API for global user progress.
 Routing: React Router for navigation between features.
 Styling: Custom CSS for a modern, gamified look.
 Data: Lessons, games, and quizzes are defined in separate data files for easy extension.
 
-##🗝️ Unlocking System Summary
+## 🗝️ Unlocking System Summary
 Lessons: Unlocked sequentially.
 Games/Quizzes: Unlocked by completing their linked lesson.
 Achievements: Unlocked by reaching specific milestones.
